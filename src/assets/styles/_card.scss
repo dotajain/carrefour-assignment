@@ -1,0 +1,14 @@
+
+.card {
+  margin-bottom: 40px;
+  &-top { 
+    border: 3px solid $color-gray-light;
+    padding: 44px 20px 55px;
+    margin-bottom: 18px;
+  }
+  &-title {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 3px;
+  }
+}

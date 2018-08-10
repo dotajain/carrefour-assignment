@@ -1,0 +1,35 @@
+@mixin bp($break) {
+  @if $break==sm {
+    @media (min-width: $sm) {
+      @content;
+    }
+  }
+  @else if $break==md {
+    @media (min-width: $md) {
+      @content;
+    }
+  }
+  @else if $break==lg {
+    @media (min-width: $lg) {
+      @content;
+    }
+  }
+  @else if $break==sm-max {
+    @media (max-width: $sm-max) {
+      @content;
+    }
+  }
+  @else if $break==md-max {
+    @media (max-width: $md-max) {
+      @content;
+    }
+  }
+  @else if $break==lg-max {
+    @media (max-width: $lg-max) {
+      @content;
+    }
+  }
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}

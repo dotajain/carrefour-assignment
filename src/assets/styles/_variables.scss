@@ -1,0 +1,24 @@
+// Variables
+
+// color
+$color-white: #ffffff !default;
+$color-black: #000000 !default;
+$color-text: #414141 !default;
+$color-blue: #05549f !default;
+$color-blue-light: #f0f7fe !default;
+$color-gray-light: #f6f6f6 !default;
+
+// typography
+$font-family-base: 'Open Sans', sans-serif;
+$font-size-base: 14px;
+
+
+// Grid Breakpoints
+
+$sm: 768px !default;
+$md: 768px !default;
+$lg: 992px !default;
+
+$sm-max: 540px !default;
+$md-max: 767px !default;
+$lg-max: 960px !default;

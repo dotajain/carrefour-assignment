@@ -1,0 +1,27 @@
+
+.row {
+  @extend %flex-wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  @include bp(md) {
+    margin-right: -35px;
+    margin-left: -35px;
+    display: flex;
+  }
+}
+.col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  @include bp(md) {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+}

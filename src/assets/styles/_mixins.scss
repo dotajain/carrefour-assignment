@@ -1,0 +1,24 @@
+
+
+%d-flex {
+  display: flex;
+}
+
+%flex-wrap {
+  flex-wrap: wrap;
+}
+
+%justify-content-between {
+  justify-content: space-between;
+}
+
+%align-items-center {
+  align-items: center;
+}
+%align-items-end {
+  align-items: flex-end;
+}
+
+%align-items-stretch {
+  align-items: stretch;
+}

@@ -1,0 +1,31 @@
+
+
+.logo {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  @include bp(md-max) {
+    margin: 0 auto;
+  }
+  &__icon {
+    display: block;
+  }
+  &__name {
+    display: block;
+  }
+
+  &-horizontal {
+    @extend %d-flex;
+    @extend %align-items-end;
+    .logo__icon {
+      margin-right: 10px;
+    }
+  }
+  &-vertical {
+    text-align: center;
+    .logo__icon {
+      margin-bottom: 11px;
+    }
+  }
+}
+

@@ -1,0 +1,17 @@
+
+.products {
+  border-top: 1px solid $color-gray-light;
+  padding-top: 35px;
+  @include bp(md) {
+    padding-top: 70px;
+  }
+  .card {
+    max-width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.product-price {
+  font-size: 18px;
+  font-weight: 600;
+}
